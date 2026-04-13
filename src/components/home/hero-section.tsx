@@ -22,7 +22,7 @@ export function HeroSection() {
           </a>
   
           <a
-            href="/resume.pdf"
+            href="/resume.pdf" target="_blank" rel="noreferrer"
             className="rounded-full border border-white/10 px-6 py-3 text-sm font-medium hover:bg-white/5 transition"
           >
             View Resume

@@ -20,7 +20,7 @@ export function Header() {
           </Link>
 
           <a
-            href="/resume.pdf"
+            href="/resume.pdf" target="_blank" rel="noreferrer"
             className="rounded-full border border-white/10 px-4 py-2 text-zinc-300 hover:border-white/20 hover:bg-white/5 hover:text-white"
           >
             Resume
