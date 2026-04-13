@@ -6,7 +6,7 @@ export function HeroSection() {
         </p>
   
         <h1 className="mt-6 text-4xl font-semibold tracking-tight md:text-6xl">
-        Building fast, scalable, user-focused web experiences.
+        I build fast, scalable, user-focused web experiences.
         </h1>
   
         <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-400">
@@ -18,7 +18,7 @@ export function HeroSection() {
             href="/projects"
             className="rounded-full bg-white px-6 py-3 text-sm font-medium text-zinc-900 hover:bg-zinc-200 transition"
           >
-            View Projects
+            View My Work
           </a>
   
           <a

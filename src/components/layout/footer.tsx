@@ -22,7 +22,7 @@ export function Footer() {
             </a>
   
             <a
-              href="#"
+              href="https://github.com/rix888"
               className="hover:text-white"
             >
               GitHub

@@ -1,6 +1,6 @@
 export function ProjectsSection() {
     return (
-      <section className="border-t border-white/10 py-20">
+      <section id="projects" className="border-t border-white/10 py-20">
         <div className="mx-auto max-w-5xl px-6">
           <div className="max-w-2xl">
             <p className="text-sm uppercase tracking-widest text-zinc-500">
@@ -20,15 +20,13 @@ export function ProjectsSection() {
             <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 flex flex-col">
               <div className="flex-1">
                 <h3 className="text-2xl font-semibold text-white">
-                  Personal Portfolio
+                  Portfolio Website
                 </h3>
   
                 <p className="mt-4 text-sm leading-7 text-zinc-400">
-                  Built a production-ready portfolio using Next.js with
-                  server-side rendering. Developed reusable, responsive UI
-                  components using TailwindCSS. Implemented unit and component
-                  tests using Jest and React Testing Library. Deployed via
-                  Vercel with CI/CD.
+                  Built a production-ready portfolio using Next.js with server-side rendering. 
+                  Focused on clean component architecture, performance optimization, and 
+                  modern UI implementation using TailwindCSS and TypeScript.
                 </p>
   
                 <div className="mt-5 flex flex-wrap gap-2 text-xs text-zinc-400">
@@ -44,14 +42,18 @@ export function ProjectsSection() {
                   <li>• Reusable UI components</li>
                   <li>• Component testing setup</li>
                 </ul>
+
+                <p className="mt-4 text-xs text-zinc-500">
+                  Demonstrates component architecture, performance awareness, and modern front-end workflows.
+                </p>      
               </div>
   
               <div className="mt-6 flex gap-4 text-sm">
-                <a href="#" className="text-white hover:text-zinc-300">
-                  Live Demo
+                <a href="https://portfolio-orpin-eight-45.vercel.app" className="text-white hover:text-zinc-300">
+                  View Live →
                 </a>
-                <a href="#" className="text-white hover:text-zinc-300">
-                  GitHub
+                <a href="https://github.com/rix888/portfolio" className="text-white hover:text-zinc-300">
+                  View Code →
                 </a>
               </div>
             </div>

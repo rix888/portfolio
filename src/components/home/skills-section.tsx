@@ -16,7 +16,7 @@ export function SkillsSection() {
           </div>
   
           <div className="mt-12 grid gap-6 md:grid-cols-3">
-            <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6">
+            <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 flex flex-col transition hover:border-white/20 hover:bg-white/[0.05]">
               <h3 className="text-xl font-semibold text-white">Performance</h3>
               <p className="mt-4 text-sm leading-7 text-zinc-400">
                 I build for speed, stability, and strong Core Web Vitals with an
@@ -24,7 +24,7 @@ export function SkillsSection() {
               </p>
             </div>
   
-            <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6">
+            <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 flex flex-col transition hover:border-white/20 hover:bg-white/[0.05]">
               <h3 className="text-xl font-semibold text-white">Accessibility</h3>
               <p className="mt-4 text-sm leading-7 text-zinc-400">
                 I care about usable, compliant experiences that work across
@@ -32,7 +32,7 @@ export function SkillsSection() {
               </p>
             </div>
   
-            <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6">
+            <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 flex flex-col transition hover:border-white/20 hover:bg-white/[0.05]">
               <h3 className="text-xl font-semibold text-white">Testing</h3>
               <p className="mt-4 text-sm leading-7 text-zinc-400">
                 I use Jest and React Testing Library to validate component
