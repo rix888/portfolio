@@ -24,9 +24,7 @@ export function ProjectsSection() {
                 </h3>
   
                 <p className="mt-4 text-sm leading-7 text-zinc-400">
-                  Built a production-ready portfolio using Next.js with server-side rendering. 
-                  Focused on clean component architecture, performance optimization, and 
-                  modern UI implementation using TailwindCSS and TypeScript.
+                  Built a production-ready portfolio using Next.js with server-side rendering. Focused on clean component architecture, performance optimization, and modern UI implementation using TailwindCSS and TypeScript.
                 </p>
   
                 <div className="mt-5 flex flex-wrap gap-2 text-xs text-zinc-400">

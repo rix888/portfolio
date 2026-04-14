@@ -11,9 +11,7 @@ export default function ContactPage() {
           </h1>
   
           <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-400">
-            I’m open to front-end engineering opportunities, product-focused web
-            work, and conversations around performance, accessibility, and modern
-            UI development.
+            I’m open to front-end engineering opportunities, product-focused web work, and conversations around performance, accessibility, and modern UI development.
           </p>
   
           <div className="mt-12 grid gap-6 md:grid-cols-3">

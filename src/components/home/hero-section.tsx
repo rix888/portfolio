@@ -10,7 +10,7 @@ export function HeroSection() {
         </h1>
   
         <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-400">
-        I build responsive interfaces with React, Next.js, TypeScript, and TailwindCSS, with a focus on performance, accessibility, testing, and maintainable UI architecture.
+        I specialize in React, Next.js, TypeScript, and TailwindCSS, building responsive interfaces with a focus on performance, accessibility, testing, and maintainable UI architecture.
         </p>
   
         <div className="mt-10 flex gap-4">

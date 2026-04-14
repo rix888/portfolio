@@ -7,8 +7,7 @@ export default function AboutPage() {
           </p>
   
           <h1 className="mt-4 text-4xl font-semibold tracking-tight text-white md:text-5xl">
-            Front-end engineering with a strong focus on performance, usability,
-            and maintainable UI systems.
+            Front-end engineering focused on performance, usability, and maintainable UI systems.
           </h1>
   
           <div className="mt-8 max-w-3xl space-y-6 text-lg leading-8 text-zinc-400">
@@ -19,9 +18,7 @@ export default function AboutPage() {
             </p>
   
             <p>
-              My work has focused on modern front-end development, responsive UI
-              architecture, accessibility, experimentation, and performance
-              optimization across marketing and product-focused experiences.
+              My background includes responsive UI architecture, accessibility, experimentation, and performance optimization across marketing and product-focused experiences.
             </p>
   
             <p>

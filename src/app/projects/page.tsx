@@ -23,10 +23,7 @@ export default function ProjectsPage() {
                     Portfolio Website
                   </h2>
                   <p className="mt-3 max-w-3xl text-sm leading-7 text-zinc-400">
-                    Built a production-ready portfolio using Next.js, TypeScript,
-                    and TailwindCSS. Focused on clean component architecture,
-                    modern UI implementation, responsive design, and deployment
-                    through Vercel with GitHub-based workflow.
+                    Built a production-ready portfolio using Next.js, TypeScript, and TailwindCSS. Focused on clean component architecture, responsive UI implementation, multi-page routing, and deployment through Vercel with a GitHub-based workflow.
                   </p>
                 </div>
               </div>
