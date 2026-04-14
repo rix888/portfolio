@@ -1,6 +1,6 @@
 export function ExperienceSection() {
     return (
-      <section className="border-t border-white/10 py-20">
+      <section className="border-t border-white/10 py-12 md:py-20">
         <div className="mx-auto max-w-5xl px-6">
           <div className="max-w-2xl">
             <p className="text-sm uppercase tracking-widest text-zinc-500">
@@ -16,7 +16,7 @@ export function ExperienceSection() {
           </div>
   
           <div className="mt-12 grid gap-6">
-            <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6">
+            <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 transition hover:border-white/20 hover:bg-white/[0.05]">
               <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
                 <div>
                   <h3 className="text-xl font-semibold text-white">
@@ -35,7 +35,7 @@ export function ExperienceSection() {
               </p>
             </div>
   
-            <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6">
+            <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 transition hover:border-white/20 hover:bg-white/[0.05]">
               <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
                 <div>
                   <h3 className="text-xl font-semibold text-white">
@@ -55,7 +55,7 @@ export function ExperienceSection() {
               </p>
             </div>
   
-            <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6">
+            <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 transition hover:border-white/20 hover:bg-white/[0.05]">
               <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
                 <div>
                   <h3 className="text-xl font-semibold text-white">

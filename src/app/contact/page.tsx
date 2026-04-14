@@ -1,7 +1,7 @@
 export default function ContactPage() {
     return (
       <main className="min-h-screen">
-        <section className="mx-auto max-w-5xl px-6 py-20 md:py-24">
+        <section className="mx-auto max-w-5xl px-4 py-8 md:px-6 md:py-16">
           <p className="text-sm uppercase tracking-widest text-zinc-500">
             Contact
           </p>

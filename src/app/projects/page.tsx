@@ -1,7 +1,7 @@
 export default function ProjectsPage() {
     return (
       <main className="min-h-screen">
-        <section className="mx-auto max-w-5xl px-6 py-20 md:py-24">
+        <section className="mx-auto max-w-5xl px-4 py-8 md:px-6 md:py-16">
           <p className="text-sm uppercase tracking-widest text-zinc-500">
             Projects
           </p>
@@ -51,7 +51,7 @@ export default function ProjectsPage() {
                   href="https://portfolio-orpin-eight-45.vercel.app"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-white hover:text-zinc-300"
+                  className="text-white transition hover:text-zinc-300"
                 >
                   View Live →
                 </a>
@@ -59,7 +59,7 @@ export default function ProjectsPage() {
                   href="https://github.com/rix888/portfolio"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-white hover:text-zinc-300"
+                  className="text-white transition hover:text-zinc-300"
                 >
                   View Code →
                 </a>

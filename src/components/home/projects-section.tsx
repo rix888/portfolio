@@ -1,6 +1,6 @@
 export function ProjectsSection() {
     return (
-      <section id="projects" className="border-t border-white/10 py-20">
+      <section id="projects" className="border-t border-white/10 py-12 md:py-20">
         <div className="mx-auto max-w-5xl px-6">
           <div className="max-w-2xl">
             <p className="text-sm uppercase tracking-widest text-zinc-500">
@@ -17,7 +17,7 @@ export function ProjectsSection() {
   
           <div className="mt-12 grid gap-6 lg:grid-cols-2">
             {/* Project 1 */}
-            <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 flex flex-col">
+            <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 transition hover:border-white/20 hover:bg-white/[0.05]">
               <div className="flex-1">
                 <h3 className="text-2xl font-semibold text-white">
                   Portfolio Website
@@ -49,17 +49,17 @@ export function ProjectsSection() {
               </div>
   
               <div className="mt-6 flex gap-4 text-sm">
-                <a href="https://portfolio-orpin-eight-45.vercel.app" className="text-white hover:text-zinc-300">
+                <a href="https://portfolio-orpin-eight-45.vercel.app" className="text-white transition hover:text-zinc-300">
                   View Live →
                 </a>
-                <a href="https://github.com/rix888/portfolio" className="text-white hover:text-zinc-300">
+                <a href="https://github.com/rix888/portfolio" className="text-white transition hover:text-zinc-300">
                   View Code →
                 </a>
               </div>
             </div>
   
             {/* Project 2 */}
-            <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 flex flex-col">
+            <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 transition hover:border-white/20 hover:bg-white/[0.05]">
               <div className="flex-1">
                 <h3 className="text-2xl font-semibold text-white">
                   Product Explorer App
@@ -86,10 +86,10 @@ export function ProjectsSection() {
               </div>
   
               <div className="mt-6 flex gap-4 text-sm">
-                <a href="#" className="text-white hover:text-zinc-300">
+                <a href="#" className="text-white transition hover:text-zinc-300">
                   Live Demo
                 </a>
-                <a href="#" className="text-white hover:text-zinc-300">
+                <a href="#" className="text-white transition hover:text-zinc-300">
                   GitHub
                 </a>
               </div>

@@ -1,6 +1,6 @@
 export function HeroSection() {
     return (
-      <section className="mx-auto max-w-5xl px-6 py-16">
+      <section className="mx-auto max-w-5xl px-4 py-8 md:px-6 md:py-16">
         <p className="text-sm uppercase tracking-widest text-zinc-500">
         Senior Front-End Engineer
         </p>
@@ -23,7 +23,7 @@ export function HeroSection() {
   
           <a
             href="/resume.pdf" target="_blank" rel="noreferrer"
-            className="rounded-full border border-white/10 px-6 py-3 text-sm font-medium hover:bg-white/5 transition"
+            className="rounded-full border border-white/10 px-6 py-3 text-sm font-medium text-zinc-300 transition hover:border-white/20 hover:bg-white/5 hover:text-white"
           >
             View Resume
           </a>

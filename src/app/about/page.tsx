@@ -1,7 +1,7 @@
 export default function AboutPage() {
     return (
       <main className="min-h-screen">
-        <section className="mx-auto max-w-5xl px-6 py-20 md:py-24">
+        <section className="mx-auto max-w-5xl px-4 py-8 md:px-6 md:py-16">
           <p className="text-sm uppercase tracking-widest text-zinc-500">
             About
           </p>
@@ -32,7 +32,7 @@ export default function AboutPage() {
           </div>
   
           <div className="mt-12 grid gap-6 md:grid-cols-3">
-            <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6">
+            <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 transition hover:border-white/20 hover:bg-white/[0.05]">
               <h2 className="text-lg font-semibold text-white">Performance</h2>
               <p className="mt-3 text-sm leading-7 text-zinc-400">
                 Focused on Core Web Vitals, responsive performance, and efficient
@@ -40,7 +40,7 @@ export default function AboutPage() {
               </p>
             </div>
   
-            <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6">
+            <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 transition hover:border-white/20 hover:bg-white/[0.05]">
               <h2 className="text-lg font-semibold text-white">Accessibility</h2>
               <p className="mt-3 text-sm leading-7 text-zinc-400">
                 Experienced building accessible, compliant experiences across
@@ -48,7 +48,7 @@ export default function AboutPage() {
               </p>
             </div>
   
-            <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6">
+            <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 transition hover:border-white/20 hover:bg-white/[0.05]">
               <h2 className="text-lg font-semibold text-white">Testing</h2>
               <p className="mt-3 text-sm leading-7 text-zinc-400">
                 Comfortable using Jest and React Testing Library to support
